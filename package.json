@@ -18,18 +18,21 @@
     "test:maestro:ios": "maestro --udid='4D47F2FA-4188-4E05-85A8-E302D9C0315F' test .maestro/flow_ios.yaml"
   },
   "dependencies": {
+    "@eva-design/eva": "^2.2.0",
     "@react-native-async-storage/async-storage": "^1.19.1",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.9.13",
     "@react-navigation/stack": "^6.3.17",
     "@shopify/flash-list": "^1.5.0",
     "@tanstack/react-query": "^4.32.6",
+    "@ui-kitten/components": "^5.3.1",
+    "@ui-kitten/eva-icons": "^5.3.1",
     "react": "18.2.0",
     "react-native": "0.72.3",
     "react-native-bootsplash": "^4.7.5",
     "react-native-gesture-handler": "^2.12.1",
     "react-native-reanimated": "^3.4.1",
-    "react-native-safe-area-context": "3.3.2",
+    "react-native-safe-area-context": "^4.7.1",
     "react-native-screens": "^3.23.0",
     "react-native-svg": "12.1.1"
   },
