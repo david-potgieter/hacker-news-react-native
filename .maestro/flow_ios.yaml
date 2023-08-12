@@ -1,0 +1,8 @@
+appId: com.kartweel.hackernews
+name: Application flow test iOS
+---
+- launchApp:
+    appId: "com.kartweel.hackernews"
+
+- stopApp:
+    appId: "com.kartweel.hackernews"
