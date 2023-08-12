@@ -1,4 +1,4 @@
-package com.hackernews;
+package com.kartweel.hackernews;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

@@ -1,4 +1,4 @@
-package com.hackernews;
+package com.kartweel.hackernews;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;

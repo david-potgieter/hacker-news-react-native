@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.hackernews"
+    namespace "com.kartweel.hackernews"
     defaultConfig {
-        applicationId "com.hackernews"
+        applicationId "com.kartweel.hackernews"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
