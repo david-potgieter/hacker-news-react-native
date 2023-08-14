@@ -28,7 +28,7 @@
 Before you begin, ensure you have met the following requirements:
 
 - You have installed React Native as per [here](https://reactnative.dev/docs/environment-setup)
-- You have installed Maestro as per [here](https://maestro.mobile.dev/getting-started/installing-maestro)
+- [TODO] You have installed Maestro as per [here](https://maestro.mobile.dev/getting-started/installing-maestro)
 
 ## Installation
 
@@ -59,11 +59,17 @@ To run the tests for the helper functions, simply run:
 
 - `yarn test`
 
-### Integration Tests
+### Integration Tests [TODO]
 
 Maestro tests are split into two for each platform, and can be run from the command line using:
 
 - `yarn test:maestro:android`
 - `yarn test:maestro:ios`
 
-## Troubleshooting
+## Demos
+
+### iOS
+https://github.com/david-potgieter/hacker-news-react-native/assets/2729962/74cdb218-45a4-4154-89ed-a8e3441f9f4d
+
+### Android
+https://github.com/david-potgieter/hacker-news-react-native/assets/2729962/2fd18a17-5d97-440a-9b9a-bf8498cf6ab0
