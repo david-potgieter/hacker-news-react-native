@@ -1,16 +1,18 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
-export const QUERY_KEYS = {}
+export const QUERY_KEYS = {
+  TOP_STORY_IDS: 'top-story-ids',
+  STORY: 'story',
+}
 
-const queryClient = new QueryClient({
+export const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       suspense: false,
       retry: false,
-      //   cacheTime: 1000 * 60 * 10, // serve from cache for 10 minutes
-      //   staleTime: 1000 * 60 * 5, // no backend calls for 5 minutes
-      refetchOnWindowFocus: true,
-      refetchOnReconnect: true,
+      staleTime: 1000 * 60 * 5,
+      refetchOnWindowFocus: false,
+      refetchOnReconnect: false,
     },
   },
 })

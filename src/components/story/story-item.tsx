@@ -5,6 +5,16 @@ import { Story } from '@/types/story-types'
 import { Pressable, useToast } from 'native-base'
 import { Linking } from 'react-native'
 
+/**
+ * Required Fields:
+ * Story title
+ * Story URL
+ * Story timestamp
+ * Story score
+ * Author id
+ * Author karma score
+ */
+
 export function StoryItem({ story }: { story: Story }) {
   const toast = useToast()
 
